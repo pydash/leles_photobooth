@@ -9,7 +9,6 @@ import { useState, useEffect } from "react";
 export default function CapturePage() {
   const DEFAULT_TIMER = 3000;
   const MAX_CAPTURE_COUNT = 4;
-  const [captureCount, setCaptureCount] = useState(MAX_CAPTURE_COUNT);
   const [timer, setTimer] = useState(DEFAULT_TIMER);
   const [isCounting, setIsCounting] = useState(false);
 
