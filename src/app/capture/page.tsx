@@ -48,8 +48,6 @@ export default function CapturePage() {
         ctx.drawImage(video, 0, 0, 400, 300);
         handleCapture(canvas.toDataURL("image/png"));
       }
-
-      setCaptureCount((prev) => prev - 1);
     }, DEFAULT_TIMER);
   };
 
